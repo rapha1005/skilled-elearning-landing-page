@@ -18,7 +18,7 @@ header{
     margin-bottom: 164px;
 }
 
-.get-started{
+.get-started-btn{
     background-color: #13183F;
     width: 168px;
     padding-top: 16px;
@@ -73,14 +73,37 @@ h2{
 
 .container {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 32px;
     grid-row-gap: 56px;
 }
 
+
 .container-child{
     width: 352px;
-    background-color: red;
     box-shadow: 0px 25px 50px 0px #06168D0B;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 24px;
+    color: #13183F;
+    margin-bottom: 24px;
+}
+
+.desc{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.get-started{
+    font-weight: 700;
+    font-size: 18px;
 }
